@@ -1,0 +1,216 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 35px;
+    height: 60px;
+    width: 100%;
+    /* background-color: blue; */
+}
+nav>section{
+    height: inherit;
+    width: 85%;
+    /* border: 2px solid navy; */
+    /* background-color: blanchedalmond;  */
+    display: flex
+}
+nav>section>article{
+    font-size: 20px;
+    height: inherit;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    /* border: 2px solid black; */
+}
+nav>section>article>a{
+    height: inherit;
+    width: inherit;
+}
+nav>section>article>a>div{
+    height: inherit;
+    width: 70%;
+    background-image: url(./images/logo\ for\ layout.png);
+    background-size: 100% 100%;
+}
+nav>section>div{
+    height: inherit;
+    width: 40%;
+    margin-left: 4%;
+    /* border: 2px solid red; */
+}
+nav>section>div>ul{  /* To adjust the width of the nav bar right side elements*/
+    /* border: 2px solid black; */
+    width: 100%;
+    height: inherit;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+}
+nav>section>div>ul>li{
+    display: flex;
+    /* border: 2px solid lawngreen; */
+}
+nav>section>div>ul>li>a{
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    font-family:sans-serif;
+    font-weight: 500;
+    /* border: 1px solid black; */
+    border-radius: 13px;
+}
+nav>section>div>ul>li :hover{
+    /* transform: translateY(-2px) translateX(-2px); */
+    /* box-shadow: 2px 3px 5px 0 black; */
+    color: gray;
+    /* transition: .5s; */
+}
+
+
+#contentBlog{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+#contentBlog>section{
+    width: 82%;
+    /* border: 2px solid black; */
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 250px 250px 250px 250px;
+    grid-template-rows: 180px 180px 180px;
+    grid-gap: 40px 30px;
+}
+#contentBlog>section>div{
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+/* #contentBlog>section>div:hover{
+    opacity: 75%;
+} */
+#contentBlog>section>div>aside{
+    display: none;
+}
+#contentBlog>section>div:hover aside{
+    display: block;
+}
+#contentBlog>section>div>aside>center>h4{
+    font-family: sans-serif;
+    font-size: 13px;
+    font-weight: 550;
+    /* display: none; */
+}
+/* #contentBlog>section>div:hover h4{
+    display: block;
+} */
+#contentBlog>section>div>aside>center>p{
+    width: 80%;
+    margin: 5px;
+    padding: 3px;
+    font-family: sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    /* display: none; */
+}
+/* #contentBlog>section>div:hover p{
+    display: block;
+} */
+#contentBlog>section>#num1{
+    background-image: url(./images/architecture_1.jpeg);
+    background-size: 100% 100%;
+}
+#contentBlog>section>#num5{
+    background-image: url(./images/architecture_1.jpeg);
+    background-size: 100% 100%;
+}
+#contentBlog>section>#num9{
+    background-image: url(./images/architecture_1.jpeg);
+    background-size: 100% 100%;
+}
+#contentBlog>section>#num2{
+    background-image: url(./images/architecture_2.jpeg);
+    background-size: 100% 100%;
+}
+#contentBlog>section>#num6{
+    background-image: url(./images/architecture_2.jpeg);
+    background-size: 100% 100%;
+}
+#contentBlog>section>#num10{
+    background-image: url(./images/architecture_2.jpeg);
+    background-size: 100% 100%;
+}
+#contentBlog>section>#num3{
+    background-image: url(./images/architecture_3.jpeg);
+    background-size: 100% 100%;
+}
+#contentBlog>section>#num7{
+    background-image: url(./images/architecture_3.jpeg);
+    background-size: 100% 100%;
+}
+#contentBlog>section>#num11{
+    background-image: url(./images/architecture_3.jpeg);
+    background-size: 100% 100%;
+}
+#contentBlog>section>#num4{
+    background-image: url(./images/architecture4.jpeg);
+    background-size: 100% 100%;
+}
+#contentBlog>section>#num8{
+    background-image: url(./images/architecture4.jpeg);
+    background-size: 100% 100%;
+}
+#contentBlog>section>#num12{
+    background-image: url(./images/architecture4.jpeg);
+    background-size: 100% 100%;
+}
+
+
+footer{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid black; */
+    margin-bottom: 10px;
+}
+footer>aside{
+    width: 35%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 2px solid pink; */
+}
+footer>aside>article{
+    display: flex;
+    align-items: center;
+    /* border: 2px solid rebeccapurple; */
+}
+footer>aside>article>p{
+    /* border: 2px solid yellow; */
+    font-size: 15px;
+    font-family: sans-serif;
+}
+footer>aside>div{
+    /* border: 2px solid blue; */
+    display: flex;
+    align-items: center;
+}
+footer>aside>div>p{
+    /* border: 2px solid greenyellow; */
+    font-size: 15px;
+    font-family: sans-serif;
+}
+footer>aside>div>p>a{
+    text-decoration: none;
+    color: black;
+}
